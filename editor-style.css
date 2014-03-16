@@ -1,0 +1,12 @@
+/*
+	Theme Name: hinagata
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Description: Used to style the TinyMCE editor.
+ */
+@import url( 'style.css' );
+
+body {
+	margin: -1em 0;
+	background: #fff;
+}
