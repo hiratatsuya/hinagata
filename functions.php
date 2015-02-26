@@ -324,8 +324,9 @@
 		}
 		$hinagata_output[ 'check_options_delete' ] = $hinagata_input[ 'check_options_delete' ] == 1 ? 1 : 0;
 
-		if ( ! isset( $hinagata_input[ 'check_hinagata_design' ] ) )
+		if ( ! isset( $hinagata_input[ 'check_hinagata_design' ] ) ) {
 			$hinagata_input[ 'check_hinagata_design' ] = null;
+		}
 		$hinagata_output[ 'check_hinagata_design' ] = $hinagata_input[ 'check_hinagata_design' ] == 1 ? 1 : 0;
 
 
